@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ShoppingCartTests.Models
 {
-    public class ShoppingCart
+    public class ShoppingCart : IShoppingCart
     {
         public List<Item> Items;
         public ShoppingCart()
@@ -29,7 +30,37 @@ namespace ShoppingCartTests.Models
 
         public void RemoveItem (string itemName)
         {
-            Items.Remove(Items.Find(x => x.ItemName == itemName));
+            try
+            {
+                Items.Remove(Items.Find(x => x.ItemName == itemName));
+            }
+            catch
+            {
+                throw new Exception("No such item found.");
+            }
+
         }
+
+        public decimal GetTotalPrice()
+        {
+            decimal totalPrice = 0;
+            foreach (Item item in Items)
+            {
+                totalPrice += item.Price * item.Quantity;
+            }
+            return totalPrice;
+        }
+
+        public List<Item> GetItems()
+        {
+            return Items;
+        }
+    }
+    public interface IShoppingCart
+    {
+        void AddItem(string itemName, int quantity, decimal price);
+        void RemoveItem(string itemName);
+        decimal GetTotalPrice();
+        List<Item> GetItems();
     }
 }

@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestUzduotys", "UnitTestUzduotys\UnitTestUzduotys.csproj", "{9D574E09-5019-4B05-BEF1-4242FCC50DD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestUzduotys", "UnitTestUzduotys\UnitTestUzduotys.csproj", "{9D574E09-5019-4B05-BEF1-4242FCC50DD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculatorTest", "SimpleCalculatorTest\SimpleCalculatorTest.csproj", "{D9CD6631-CC42-4267-8800-7BFF2B39AEEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculatorTest", "SimpleCalculatorTest\SimpleCalculatorTest.csproj", "{D9CD6631-CC42-4267-8800-7BFF2B39AEEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceTests", "UserServiceTests\UserServiceTests.csproj", "{A8B28743-248B-426C-90A9-24C47BEF6860}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserServiceTests", "UserServiceTests\UserServiceTests.csproj", "{A8B28743-248B-426C-90A9-24C47BEF6860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceTest", "UserServiceTest\UserServiceTest.csproj", "{AE72197A-9995-4B1B-A9B6-9B38D13B9629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserServiceTest", "UserServiceTest\UserServiceTest.csproj", "{AE72197A-9995-4B1B-A9B6-9B38D13B9629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartTests", "ShoppingCartTests\ShoppingCartTests.csproj", "{19E207BF-40D0-48DC-A163-42F2870A5B04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCartTests", "ShoppingCartTests\ShoppingCartTests.csproj", "{19E207BF-40D0-48DC-A163-42F2870A5B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartUnitTest", "ShoppingCartUnitTest\ShoppingCartUnitTest.csproj", "{975D67A7-673D-4BCD-9A2A-CA203B266651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "BankAccount\BankAccount.csproj", "{A331E1F5-824F-4185-8435-68B29E5658F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountTests", "BankAccountTests\BankAccountTests.csproj", "{82DB8B01-9ED5-4DB5-B3E3-0DBD81AD9926}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{19E207BF-40D0-48DC-A163-42F2870A5B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E207BF-40D0-48DC-A163-42F2870A5B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E207BF-40D0-48DC-A163-42F2870A5B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975D67A7-673D-4BCD-9A2A-CA203B266651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975D67A7-673D-4BCD-9A2A-CA203B266651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975D67A7-673D-4BCD-9A2A-CA203B266651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975D67A7-673D-4BCD-9A2A-CA203B266651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A331E1F5-824F-4185-8435-68B29E5658F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A331E1F5-824F-4185-8435-68B29E5658F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A331E1F5-824F-4185-8435-68B29E5658F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A331E1F5-824F-4185-8435-68B29E5658F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DB8B01-9ED5-4DB5-B3E3-0DBD81AD9926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DB8B01-9ED5-4DB5-B3E3-0DBD81AD9926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DB8B01-9ED5-4DB5-B3E3-0DBD81AD9926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DB8B01-9ED5-4DB5-B3E3-0DBD81AD9926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
